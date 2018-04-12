@@ -3,9 +3,9 @@
 <div class="container">
     <form method="post" action="{{ route ('loginForm')}}">
         {{csrf_field()}}
-            Email:
+            Enter Email:
             <input type="email" name="email" placeholder="abc@gmail.com"><br/>
-            Password:
+            Enter Password:
             <input type="password" name="password" placeholder="*****"><br/>
             <input type="submit" name="submit" value="submit">
     </form>
